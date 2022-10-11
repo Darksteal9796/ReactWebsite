@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+
+  
+}
+.main{
+  margin-top: 0;
+  text-align: center;
+}
+
+.gautamsm {
+  width: 5%;
+  top: 20px;
+  left: 20px;
+  position: fixed;
+}
+
+.gautamsm:hover {
+  color: red;
+  /* background: rgb(9, 228, 9); */
+  box-shadow: 0 0 100px red;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 110px;
+  top: 20px;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(80, 134, 18);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #111;
+}
+
+
+h1 {
+  margin: 0;
+  padding-top: 120px;
+  font-family: 'Sacramento', cursive;
+  color: forestgreen;
+  font-size: 65px;
+}
+.dev:hover{
+  color:red;
+  font-size: 50px;
+}
+.web {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(3, 68, 3);
+  padding: -10 auto 0 auto;
+}
+
+.top-container {
+  background-color: #93c6c7;
+  height: 780px;
+  width: 100%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+
+.bottom-cloud:hover {
+  color: rgb(207, 226, 235);
+  /* background: rgb(240, 52, 83); */
+  box-shadow: 0 0 100px rgb(10, 80, 233);
+}
+
+.rain {
+  display: block;
+  width: 10%;
+  height: 200px;
+  position: absolute;
+  left: 300px;
+  top: 440px;
+  opacity: 0%;
+  border-radius: 10% 10%;
+}
+
+.rain:hover {
+  display: block;
+  opacity: 80%;
+}
+
+.mountain {
+  position: absolute;
+  bottom: -50px;
+  right: 450px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+.I {
+  font-size: 140px;
+}
+
+.D {
+  font-size: 140px;
+}
+
+.skill-row1 {
+  display: inline-block;
+  width: 50%;
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+
+.skill-row2 {
+  display: inline-block;
+  width: 50%;
+  margin: 20px auto 20px auto;
+  text-align: right;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+}
+
+.gautamimg {
+  margin: 100px auto 50px auto;
+}
+
+.pythonimg {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.sqlimg {
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 20px;
+}
+
+.bottom-container {
+  background-color:black;
+  height: 300px;
+  padding: 5px 0 20px;
+}
+
+.contact-me {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.skills {
+  margin-top: 70px;
+}
+
+h2 {
+  color: rgb(30, 131, 30);
+}
+
+p {
+  color: rgb(39, 82, 39);
+}
+
+.footer-link {
+  padding: 30px;
+  padding-top: 50px;
+  color: rgb(243, 49, 58);
+  text-decoration: none;
+}
+
+.links {
+  margin-top: 80px;
+}
+
+.copy {
+  color: rgb(36, 229, 243);
+  padding: 20px;
+}
+
+.sephr {
+  color: grey;
+  width: 20%;
+}
+
+hr {
+  border-style: groove;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(31, 238, 228);
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.middle-container {
+  background-color: #dbcfb9;
+  margin-top: -100px;
+  height: 1500px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
